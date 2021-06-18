@@ -42,3 +42,13 @@ body {
     font-size: .8rem;
   }
 }
+
+@media (max-width: 473px) {
+  .info-coxinha h2 {
+    font-size: 1.2rem;
+  }
+
+  .info-coxinha p {
+    font-size: .7rem;
+  }
+}
