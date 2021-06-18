@@ -1,5 +1,5 @@
 body {
-  background-color: #f7a156;
+  background-color: #4169e1;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -8,13 +8,18 @@ body {
   justify-content: center;
   align-items: center;
   margin: 1.2rem 0;
+  font-family: 'Lobster', sans-serif;
+}
+
+.titulo h1 {
+  font-size: 3.5rem;
 }
 
 .coxinha {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(183,65,14, .5);
+  background-color: #ff6400;
   padding-left: 3rem;
   margin: 1rem 0;
   border-radius: 10px;
@@ -27,6 +32,10 @@ body {
   border-radius: 0 10px 10px 0;
 }
 
+.info-coxinha h2 {
+  font-size: 1.8rem;
+}
+
 .container-footer {
   display: flex;
   justify-content: space-evenly;
@@ -35,6 +44,10 @@ body {
 
 .slider-coxinha {
   margin-bottom: 2rem;
+}
+
+.slider-coxinha img {
+  border-radius: 40px;
 }
 
 @media (max-width: 550px) {
