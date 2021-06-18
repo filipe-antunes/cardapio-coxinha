@@ -33,6 +33,10 @@ body {
   align-items: center;
 }
 
+.slider-coxinha {
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 550px) {
   .info-coxinha h2 {
     font-size: 1.4rem;
