@@ -38,6 +38,11 @@ h2.titulo {
   border-radius: 10px;
   box-shadow: 2px 2px 8px 2px #ccc;
   cursor: pointer;
+  transition: all .3s ease;
+}
+
+.coxinha:hover {
+  background-color: rgb(255, 100, 0);
 }
 
 .coxinha img {
