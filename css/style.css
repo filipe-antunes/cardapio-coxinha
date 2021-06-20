@@ -84,9 +84,13 @@ h2.titulo {
   box-shadow: 2px 2px 8px 2px #ccc;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 630px) {
   .fundo-titulo {
     padding: 1rem 3rem;
+  }
+
+  .fundo-titulo h1 {
+    font-size: 3rem;
   }
 
   .info-coxinha h2 {
@@ -99,6 +103,10 @@ h2.titulo {
 }
 
 @media (max-width: 473px) {
+  .fundo-titulo h1 {
+    font-size: 2rem;
+  }
+
   .info-coxinha h2 {
     font-size: 1.2rem;
   }
