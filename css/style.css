@@ -32,7 +32,7 @@ h2.titulo {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ff6400;
+  background-color: rgba(255, 100, 0, .8);
   padding-left: 3rem;
   margin: 1rem 0;
   border-radius: 10px;
@@ -85,6 +85,10 @@ h2.titulo {
 }
 
 @media (max-width: 550px) {
+  .fundo-titulo {
+    padding: 1rem 3rem;
+  }
+
   .info-coxinha h2 {
     font-size: 1.4rem;
   }
