@@ -27,78 +27,101 @@
           </div>
         </div>
       </nav>
-      <div class="titulo text-white">
-        <h1>Nossas Coxinhas</h1>
+      <div class="titulo">
+        <div class="fundo-titulo">
+          <h1>Nossas Coxinhas</h1>
+        </div>
       </div>
     </header>
 
     <section class="container-xl">
       <div class="row">
         <div class="col-xl-6">
-          <h2 class="titulo text-white">Salgadas</h2>
-          <div class="coxinha">
+          <h2 class="titulo">Salgadas</h2>
+          <div class="coxinha" data-bs-toggle="modal" data-bs-target="#modalCoxinhaDetail">
             <div class="info-coxinha text-white">
-              <h2>Coxinha de Frango</h2>
-              <p>Deliciosa massa de mandioca com cebolinha e recheio de frango especial bem temperadinho.</p>
+              <h2>Frango</h2>
+              <p>Massa de batata e recheio de frango especial bem temperadinho.</p>
             </div>
-            <img src="./assets/coxinha.png" alt="Coxinha">
+            <img src="./assets/coxinha-frango.png" alt="Coxinha de Frango">
           </div>
-          <div class="coxinha">
+          <div class="coxinha" data-bs-toggle="modal" data-bs-target="#modalCoxinhaDetail">
             <div class="info-coxinha text-white">
-              <h2>Coxinha de Queijo</h2>
-              <p>Deliciosa massa de mandioca com cebolinha e recheio de queijo coalho delícia.</p>
+              <h2>Queijo</h2>
+              <p>Massa de batata e recheio de queijo coalho delícia.</p>
             </div>
-            <img src="./assets/coxinha.png" alt="Coxinha">
+            <img src="./assets/coxinha-queijo.png" alt="Coxinha de Queijo">
           </div>
-          <div class="coxinha">
+          <div class="coxinha" data-bs-toggle="modal" data-bs-target="#modalCoxinhaDetail">
             <div class="info-coxinha text-white">
-              <h2>Coxinha de Carne</h2>
-              <p>Deliciosa massa de mandioca com cebolinha e recheio de carne moída com cebola caramelizada.</p>
+              <h2>Carne</h2>
+              <p>Massa de batata e recheio de carne moída com cebola caramelizada.</p>
             </div>
-            <img src="./assets/coxinha.png" alt="Coxinha">
+            <img src="./assets/coxinha-carne.png" alt="Coxinha de Carne">
           </div>
-          <div class="coxinha">
+          <div class="coxinha" data-bs-toggle="modal" data-bs-target="#modalCoxinhaDetail">
             <div class="info-coxinha text-white">
-              <h2>Coxinha de Palmito</h2>
-              <p>Deliciosa massa de mandioca com cebolinha e recheio de creme de palmito dos deuses.</p>
+              <h2>Palmito</h2>
+              <p>Massa de batata e recheio de palmito refogado com azeitonas.</p>
             </div>
-            <img src="./assets/coxinha.png" alt="Coxinha">
+            <img src="./assets/coxinha-palmito.png" alt="Coxinha de Palmito">
           </div>
         </div>
 
         <div class="col-xl-6">
-          <h2 class="titulo text-white">Doces</h2>
-          <div class="coxinha">
+          <h2 class="titulo">Doces</h2>
+          <div class="coxinha" data-bs-toggle="modal" data-bs-target="#modalCoxinhaDetail">
             <div class="info-coxinha text-white">
-              <h2>Coxinha de Brigadeiro</h2>
-              <p>Deliciosa massa de batata salpicada com açucar e recheio de brigadeiro bem brasileiro.</p>
+              <h2>Brigadeiro</h2>
+              <p>Brigadeiro coberto de chocolate granulado e recheio de morango.</p>
             </div>
-            <img src="./assets/coxinha.png" alt="Coxinha">
+            <img src="./assets/coxinha-brigadeiro.png" alt="Coxinha de Brigadeiro">
           </div>
-          <div class="coxinha">
+          <div class="coxinha" data-bs-toggle="modal" data-bs-target="#modalCoxinhaDetail">
             <div class="info-coxinha text-white">
-              <h2>Coxinha de Beijinho</h2>
-              <p>Deliciosa massa de batata salpicada com açucar e recheio de beijinho e côco tostado.</p>
+              <h2>Beijinho</h2>
+              <p>Beijinho coberto de leite ninho e recheio de morango.</p>
             </div>
-            <img src="./assets/coxinha.png" alt="Coxinha">
+            <img src="./assets/coxinha-beijinho.png" alt="Coxinha de Beijinho">
           </div>
-          <div class="coxinha">
+          <div class="coxinha" data-bs-toggle="modal" data-bs-target="#modalCoxinhaDetail">
             <div class="info-coxinha text-white">
-              <h2>Coxinha de Banana</h2>
-              <p>Deliciosa massa de batata salpicada com açucar e recheio de banana refogada com canela.</p>
+              <h2>Churros</h2>
+              <p>Massa de churros coberta de açucar e canela e recheio de doce de leite.</p>
             </div>
-            <img src="./assets/coxinha.png" alt="Coxinha">
+            <img src="./assets/coxinha-churros.png" alt="Coxinha de Churros">
           </div>
-          <div class="coxinha">
+          <div class="coxinha" data-bs-toggle="modal" data-bs-target="#modalCoxinhaDetail">
             <div class="info-coxinha text-white">
-              <h2>Coxinha de Paçoca</h2>
-              <p>Deliciosa massa de batata salpicada com açucar e recheio de creme de paçoca com leite condensado.</p>
+              <h2>Paçoca</h2>
+              <p>Massa de paçoca coberta de amendoim e recheio de doce de leite.</p>
             </div>
-            <img src="./assets/coxinha.png" alt="Coxinha">
+            <img src="./assets/coxinha-pacoca.png" alt="Coxinha de Paçoca">
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalCoxinhaDetail" tabindex="-1" aria-labelledby="modalCoxinha" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalCoxinha"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p></p>
+            <p>Valor R$ 5,00</p>
+            <img>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <footer class="bg-dark text-white p-5">
       <div class="container-footer">
@@ -106,9 +129,8 @@
           <div class="col-xl-4">
             <h4>PÁGINAS</h4>
             <ul class="list-unstyled">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Cardápio</a></li>
-              <li><a href="#">Contato</a></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./cardapio.html">Cardápio</a></li>
             </ul>
           </div>
 
@@ -126,6 +148,7 @@
   </main>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="./scripts/script.js"></script>
 
 </body>
 </html>
