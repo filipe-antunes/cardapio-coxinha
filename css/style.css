@@ -69,6 +69,12 @@ h2.titulo {
   border-radius: 40px;
 }
 
+.link-carousel {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
 .modal-title {
   font-family: 'Lobster', sans-serif;
   font-size: 2rem;
